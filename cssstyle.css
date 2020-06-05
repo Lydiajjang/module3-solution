@@ -1,0 +1,62 @@
+header{
+    margin-bottom: 20px;
+}
+
+.navbar-brand a{
+    text-decoration: none;
+    color: lemonchiffon;
+    
+}
+
+.navbar-brand h1{
+    font-size: 1.2em;
+}
+
+.navbar-brand a:hover{
+    color: coral;
+}
+
+#title{
+    word-spacing: 10px;
+    color: chocolate;
+    font-size: 2.4em;
+    margin-bottom: 25px;
+    
+}
+
+body{
+    background-color: blanchedalmond;
+    
+}
+
+.menu{
+    height: 950;
+    overflow: hidden;
+    padding: 10px;
+    border: solid black .5px;
+    background-color: cornsilk
+    
+}
+
+.menu-title{
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.menu-description{
+    margin-bottom: 10px;
+    font-weight: 150;
+}
+
+@media (min-width: 576px) and (max-width: 1200px){
+    #navbarNavDropdown{
+        display: none;
+    }
+}
+
+@media (max-width: 575px){
+    .menu{
+     margin: 25px;  
+    }
+}
