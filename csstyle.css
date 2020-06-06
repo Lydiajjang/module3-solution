@@ -49,14 +49,21 @@ body{
     font-weight: 150;
 }
 
-@media (min-width: 576px) and (max-width: 1400px){
+@media (min-width: 768) and (max-width: 1400px){
     #navbarNavDropdown{
         display: none;
     }
 }
 
-@media (max-width: 575px){
+@media (max-width: 768){
     .menu{
      margin: 25px;  
+    }
+    
+}
+
+@media (max-width: 765px)
+    .d-sm-none{
+        display: block !important;
     }
 }
